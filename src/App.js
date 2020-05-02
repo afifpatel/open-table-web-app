@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Layout from './components/Layout/Layout';
+import CryptoCurrencies from './containers/CryptoCurrencies';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Bismillah</h1>
+    <div>
+      <Layout>
+        <CryptoCurrencies />
+      </Layout>
     </div>
   );
 }
