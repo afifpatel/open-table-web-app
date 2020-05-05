@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
 import Layout from './components/Layout/Layout';
-import CryptoCurrencies from './containers/CryptoCurrencies/CryptoCurrencies';
+import SearchForm from './containers/SearchForm/SearchForm';
+import RestaurantsList from './components/RestaurantsList/RestaurantsList';
+import Paginator from './components/Paginator/Paginator';
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Layout>
-        <CryptoCurrencies />
+        <SearchForm />
+        <Paginator />
+        <RestaurantsList />
       </Layout>
     </div>
   );

@@ -1,11 +1,10 @@
 import React from 'react';
+import './Layout.css';
 
 const Layout = (props) => (
-    <div>
-        <div>Toolbar</div>
-        <main>
+    <div className="container">
+        <legend className="legend">Restaurant search</legend>
             {props.children}
-        </main>
     </div>
 );
 

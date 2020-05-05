@@ -1,3 +1,8 @@
 .App {
   text-align: center;
+  display: block;
+  min-height: 80px;
+  box-sizing: border-box;
+  justify-content: center;
+  height: 50vh;
 }
